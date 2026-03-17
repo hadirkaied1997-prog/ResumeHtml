@@ -3,85 +3,85 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hadir Kaied</title>
+<title>Entesar Ragab - CV</title>
 
 <style>
 
 @page{
-    size: A4;
-    margin:15mm;
+    size:A4;
+    margin:18mm;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin:0;
-    color:#333;
     font-size:15px;
-    line-height:1.45;
+    color:#222;
+    line-height:1.4;
+    margin:0;
 }
 
-.container{
-    display:grid;
-    grid-template-columns:35% 65%;
-}
+/* HEADER */
 
-/* LEFT COLUMN */
-
-.left{
-    background:#f4f4f4;
-    padding:22px 18px;
-}
-
-.name{
-    font-size:28px;
-    font-weight:bold;
-    margin-bottom:6px;
-}
-
-.contact{
-    font-size:14px;
+.header{
+    text-align:center;
     margin-bottom:16px;
 }
 
-h3{
-    margin-top:16px;
-    margin-bottom:6px;
-    font-size:17px;
-    border-bottom:1px solid #bbb;
-    padding-bottom:3px;
+.header h1{
+    margin:0;
+    font-size:28px;
 }
 
-ul{
-    padding-left:18px;
-    margin:4px 0;
+.contact{
+    margin-top:6px;
+    font-size:14px;
+    color:#444;
 }
 
-/* RIGHT COLUMN */
-
-.right{
-    padding:22px 26px;
-}
+/* SECTIONS */
 
 .section{
     margin-bottom:14px;
 }
 
-.job{
+.section h2{
+    font-size:18px;
+    border-bottom:2px solid #000;
+    padding-bottom:4px;
+    margin-bottom:8px;
+}
+
+/* GRID */
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+}
+
+/* ITEMS */
+
+.item{
     margin-bottom:10px;
 }
 
-.job-title{
+.title{
     font-weight:bold;
 }
 
 .date{
     float:right;
-    color:#666;
-    font-size:13px;
+    font-size:14px;
+    color:#555;
 }
 
 p{
-    margin:4px 0;
+    margin:3px 0;
+}
+
+ul{
+    margin:5px 0;
+    padding-left:18px;
 }
 
 </style>
@@ -90,103 +90,113 @@ p{
 
 <body>
 
-<div class="container">
-
-<div class="left">
-
-<div class="name">Hadir Kaied</div>
-
+<div class="header">
+<h1>Entesar Ragab</h1>
 <div class="contact">
-Cairo, Egypt<br>
-hadirkaied@email.com<br>
-+20 1097694857
+Cairo, Egypt | entesarragab1973@gmail.com | 01092042264
 </div>
-
-<h3>Technical Skills</h3>
-<ul>
-<li>Python</li>
-<li>JavaScript</li>
-<li>Java</li>
-<li>C++</li>
-<li>C#</li>
-<li>TypeScript</li>
-<li>Go</li>
-<li>PHP</li>
-<li>Swift</li>
-</ul>
-
-<h3>Other Skills</h3>
-<ul>
-<li>Data Science & Analysis</li>
-<li>Machine Learning Basics</li>
-<li>Graphic Design</li>
-<li>Web Development</li>
-<li>Problem Solving</li>
-<li>Software Architecture</li>
-</ul>
-
-<h3>Languages</h3>
-<ul>
-<li>English – Fluent</li>
-<li>German – Intermediate</li>
-<li>Arabic – Native</li>
-</ul>
-
 </div>
-
-<div class="right">
 
 <div class="section">
-<h3>Professional Summary</h3>
+<h2>Professional Summary</h2>
 <p>
-Software engineer experienced in programming, data science, and graphic design. Also holds a diploma in law and has experience working in legal environments.
+Software developer with strong programming and web development skills, combined with a solid legal background. Experienced in building practical solutions and improving digital workflows, especially in administrative and legal environments.
 </p>
 </div>
 
+<div class="grid">
+
+<!-- LEFT COLUMN -->
+
+<div>
+
 <div class="section">
-<h3>Education</h3>
+<h2>Education</h2>
 
-<div class="job">
-<span class="job-title">Master's Degree in Computer Science</span>
-<span class="date">2022 – 2024</span>
-<p>Cairo University — Advanced studies in software engineering, machine learning, and data analysis.</p>
-</div>
-
-<div class="job">
-<span class="job-title">Bachelor of Engineering – Software Engineering</span>
-<span class="date">2015 – 2019</span>
-<p>Al-Azhar University — Focused on programming, algorithms, and system design.</p>
-</div>
-
-<div class="job">
-<span class="job-title">Diploma in Law</span>
+<div class="item">
+<span class="title">Diploma in Software Engineering</span>
 <span class="date">2020 – 2021</span>
-<p>Studied legal principles, contracts, and legal documentation used in business and government sectors.</p>
+<p>Professional training in programming, web development, and databases.</p>
+</div>
+
+<div class="item">
+<span class="title">Bachelor of Law (LLB)</span>
+<span class="date">1991 – 1995</span>
+<p>Ain Shams University — Studied civil and administrative law.</p>
+</div>
+
+<div class="item">
+<span class="title">Diploma in Public Administration</span>
+<span class="date">1998 – 1999</span>
+<p>Cairo University — Focused on administrative systems and procedures.</p>
 </div>
 
 </div>
 
 <div class="section">
-<h3>Work Experience</h3>
+<h2>Technical Skills</h2>
+<ul>
+<li>Python, JavaScript, Java, C++</li>
+<li>HTML, CSS, ReactJs</li>
+<li>Node.js, Typescript</li>
+<li>SQL & Databases</li>
+<li>Git & Version Control</li>
+</ul>
+</div>
 
-<div class="job">
-<span class="job-title">Software Developer – Tech Solutions Company</span>
+<div class="section">
+<h2>Languages</h2>
+<ul>
+<li>Arabic – Native</li>
+<li>English – Fluent</li>
+</ul>
+</div>
+
+</div>
+
+<!-- RIGHT COLUMN -->
+
+<div>
+
+<div class="section">
+<h2>Work Experience</h2>
+
+<div class="item">
+<span class="title">Junior Software Developer – Smart Tech Solutions</span>
 <span class="date">2021 – Present</span>
-<p>Develop web applications and backend systems while collaborating with development teams.</p>
+<p>Developed web applications and internal systems, improving workflow efficiency using modern programming tools.</p>
 </div>
 
-<div class="job">
-<span class="job-title">Legal Assistant – Legal Consulting Office</span>
-<span class="date">2020 – 2021</span>
-<p>Prepared legal documents, reviewed contracts, and assisted lawyers in legal research.</p>
+<div class="item">
+<span class="title">Administrative & Systems Officer – Cairo Legal Office</span>
+<span class="date">2012 – 2021</span>
+<p>Managed digital records and introduced basic software solutions to organize legal documentation.</p>
 </div>
 
-<div class="job">
-<span class="job-title">Junior Software Engineer – Digital Future Systems</span>
-<span class="date">2019 – 2020</span>
-<p>Assisted in development tasks, debugging software, and improving web platforms.</p>
+<div class="item">
+<span class="title">Legal Assistant – El-Nasr Law Firm</span>
+<span class="date">2004 – 2012</span>
+<p>Prepared contracts, handled case files, and supported legal documentation processes.</p>
 </div>
 
+</div>
+
+<div class="section">
+<h2>Projects</h2>
+<ul>
+<li>Built a document management system for organizing legal files</li>
+<li>Developed simple web applications using JavaScript and Python</li>
+<li>Created database systems for administrative tracking</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Legal Knowledge</h2>
+<ul>
+<li>Contract Drafting & Review</li>
+<li>Legal Documentation</li>
+<li>Administrative Law Procedures</li>
+</ul>
 </div>
 
 </div>
